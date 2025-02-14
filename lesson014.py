@@ -21,4 +21,8 @@ if __name__ == '__main__':
 
     print(common_function(age, name, job, experience=10, company='Google'))
 
+    print('-'*40)
+
+    func_with_args_and_kwargs(1, 2, 3, a=4, b=5, c=6)
+
 
