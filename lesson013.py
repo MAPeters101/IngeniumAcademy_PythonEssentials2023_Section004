@@ -13,6 +13,12 @@ if __name__ == '__main__':
     formatted_data = format_info(age=age, name=name, job=job)
     print(formatted_data)
 
+    #formatted_data = format_info(age=age, name=name, job)  # This will fail because keyword argument before non-keyword argument
+    #print(formatted_data)
+
+    formatted_data = format_info(age, name=name, job=job)
+    print(formatted_data)
+
 
 
 
